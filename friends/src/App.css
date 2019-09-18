@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.loginForm {
+  width         : 50%;
+  margin        : 1em auto;
+  display       : flex;
+  flex-direction: column;
+}
+
+.loginForm input:nth-child(even) {
+  margin: 1em 0;
+}
